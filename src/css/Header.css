@@ -1,0 +1,15 @@
+.header {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 5px solid blue;
+}
+
+.header div {
+
+
+    border: 5px solid green;
+}

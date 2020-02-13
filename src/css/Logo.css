@@ -1,0 +1,27 @@
+.logo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-img-div {
+
+        display: flex;
+        justify-content: center;
+}
+
+.logo-name-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-img-div img {
+    object-fit: contain;
+    /* this solved aspect ratio problems and made it work on mobile too */
+}
+
+.logo-name-div div {
+    display: flex;
+    flex-wrap: nowrap;
+}

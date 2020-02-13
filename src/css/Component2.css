@@ -1,0 +1,11 @@
+.component2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    border: 5px solid blue;
+}
+
+.component2-container div {
+    border: 5px solid green;
+}
